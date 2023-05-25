@@ -5,37 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <main>
-        <form>
-            <div>
+        <form class="formulario">
+            <div class="campo-form">
                 <label for="nome">Nome</label>
                 <input type="text" id="nome" nome="nome">
             </div>
 
-            <div>
+            <div class="campo-form">
                 <label for="email">E-mail</label>
                 <input type="email" id="email" nome="email">
             </div>
 
-            <div>
+            <div class="campo-form">
                 <label for="tel">Telefone</label>
                 <input type="tel" id="tel" nome="tel">
             </div>
 
-            <div>
+            <div class="campo-form">
                 <label for="nascimento">Nacimento</label>
                 <input type="date" id="nacimento" nome="nascimento">
             </div>
 
-            <div>
+            <div class="campo-form">
                 <label for="curriculo">Curriculo</label>
                 <input type="file" id="curriculo" nome="curriculo">
             </div>
 
-            <div>
+            <div class="campo-form">
                 <p>Sexo</p>
                 <label for="masculino">
                     <input type="radio" id="masculino" nome="Sexo" value="masculino">
@@ -47,7 +48,7 @@
                 </label>
             </div>
 
-            <div>
+            <div class="campo-form">
                 <p>Cursos</p> 
                 <label for="adm">
                     <samp>Administraçõa</samp>
@@ -69,11 +70,19 @@
                 <label for="Med">
                     <samp>Medicina</samp>
                     <input type="checkbox" nome="med" id="med" value="med">
-                </label>
+                                    
+                </label> 
                 
+                <button class="botton">Enviar</button> 
+               
+                
+                         
                 
             </div>
+
         </form>
+
+    
     </main>    
 </body>
 </html>
